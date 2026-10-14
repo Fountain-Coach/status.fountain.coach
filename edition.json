@@ -4,12 +4,15 @@
   "canonical": "https://status.fountain.coach/",
   "authority": "Fountain-Coach/status.fountain.coach",
   "publicationRoot": "site",
-  "editionStatus": "public-https-witnessed-source-snapshot",
+  "editionStatus": "source-candidate-not-publicly-deployed",
   "captured": "2026-10-14",
   "fileCount": 25,
   "htmlRouteCount": 12,
-  "sha256Inventory": "b40be7d767f71da1de462b16292c737ee9c6f224592a614538d5b493f1106b35",
+  "sha256Inventory": "13d7f97720b3ef20a179625aab2365409233de4d96d7da76f39f2d276f21cfd0",
   "snapshotTag": "status-public-snapshot-20261014",
   "derivedSite": "midi2-gpu-fabric/estate/sites/status.fountain.coach",
-  "publicEffect": "No Git push performs a public publication."
+  "publicEffect": "No Git push performs a public publication.",
+  "sourceChange": "Move Company Status and Transparency from header rail to permanent legal footer",
+  "publicSnapshotCommit": "941cd20b2b7cef4223988e470d6995636eac1a6e",
+  "publicSnapshotTag": "status-public-snapshot-20261014"
 }

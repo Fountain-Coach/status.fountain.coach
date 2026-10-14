@@ -67,3 +67,7 @@ state. Other Git-authoritative domains are siblings, not Status content
 stores: `Fountain-Coach/governance.fountain.coach` owns Governance,
 `Fountain-Coach/midi2` owns MIDI2 technical publication, and Fountain
 Press may derive reader views without altering any owner.
+
+## Current unpublished editorial revision
+
+After the exact-public snapshot tag, the normalizer was admitted as the **owner repository source change**: all 12 pages now show Company Status & Transparency in their footer legal group, not in the header rail. The complete source checksum manifest has been updated. The historical HTTPS witness remains pinned to the original snapshot tag. The current source revision deliberately differs from the live domain until a separately authorized EstatePublisher release and independent HTTPS proof.
