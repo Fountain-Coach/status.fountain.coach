@@ -8,11 +8,11 @@
   "captured": "2026-10-14",
   "fileCount": 25,
   "htmlRouteCount": 12,
-  "sha256Inventory": "13d7f97720b3ef20a179625aab2365409233de4d96d7da76f39f2d276f21cfd0",
+  "sha256Inventory": "1af4a6ba707bf843846d861a1954ee0b9f16829eefb6332a7a8de409b574f02b",
   "snapshotTag": "status-public-snapshot-20261014",
   "derivedSite": "midi2-gpu-fabric/estate/sites/status.fountain.coach",
   "publicEffect": "No Git push performs a public publication.",
-  "sourceChange": "Move Company Status and Transparency from header rail to permanent legal footer",
+  "sourceChange": "Permanent Company Status legal footer plus explicit owning Git links in agent discovery and llms.txt",
   "publicSnapshotCommit": "941cd20b2b7cef4223988e470d6995636eac1a6e",
   "publicSnapshotTag": "status-public-snapshot-20261014"
 }

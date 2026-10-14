@@ -1,5 +1,10 @@
 # Fountain Coach Agent Discovery
 
+Source-owned Status public edition:
+https://github.com/Fountain-Coach/status.fountain.coach
+
+This repository owns the complete status.fountain.coach publication; live HTTPS is a separate release witness.
+
 Canonical machine-readable bootstrap:
 https://status.fountain.coach/for-agents/bootstrap.json
 

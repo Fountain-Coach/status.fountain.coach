@@ -89,15 +89,49 @@
   },
   "repositories": [
     {
-      "id": "reframe-governance",
-      "repository": "Fountain-Coach/Reframe-Refactoring",
-      "role": "public Reframe governance and publication source",
+      "id": "status-public-edition",
+      "repository": "Fountain-Coach/status.fountain.coach",
+      "role": "Canonical Git owner of complete published company Status, transparency and business-architecture website",
       "authorityFor": [
-        "Reframe product intent",
-        "refactoring governance",
-        "public governance projection"
+        "published company and business status claims",
+        "company and transparency site content",
+        "status-domain legal/footer presentation",
+        "public Status machine endpoints and schemas"
+      ],
+      "canonicalUrl": "https://status.fountain.coach/",
+      "sourceRepository": "https://github.com/Fountain-Coach/status.fountain.coach",
+      "public": true,
+      "status": "authoritative-public-source-repository",
+      "agents": "https://github.com/Fountain-Coach/status.fountain.coach/blob/main/AGENTS.md",
+      "publicWitness": "https://status.fountain.coach/",
+      "publicationRule": "Source Git approval is separate from EstatePublisher live deployment and HTTPS read-back."
+    },
+    {
+      "id": "governance-public-edition",
+      "repository": "Fountain-Coach/governance.fountain.coach",
+      "role": "Canonical Git owner of complete published Governance site and chapter/legal edition",
+      "authorityFor": [
+        "published Governance chapters and statuses",
+        "public Governance legal pages",
+        "published normative Governance site"
       ],
       "canonicalUrl": "https://governance.fountain.coach/",
+      "sourceRepository": "https://github.com/Fountain-Coach/governance.fountain.coach",
+      "public": true,
+      "status": "authoritative-public-source-repository",
+      "agents": "https://github.com/Fountain-Coach/governance.fountain.coach/blob/main/AGENTS.md",
+      "publicWitness": "https://governance.fountain.coach/"
+    },
+    {
+      "id": "reframe-internal-rule-history",
+      "repository": "Fountain-Coach/Reframe-Refactoring",
+      "role": "Internal Reframe rule authoring and historical source proposals, not published Governance edition authority",
+      "authorityFor": [
+        "Reframe internal rule proposals",
+        "refactoring governance history",
+        "reviewable draft governance material"
+      ],
+      "canonicalUrl": "https://github.com/Fountain-Coach/Reframe-Refactoring",
       "sourceRepository": "https://github.com/Fountain-Coach/Reframe-Refactoring",
       "public": true,
       "agents": "https://github.com/Fountain-Coach/Reframe-Refactoring/blob/main/AGENTS.md",
@@ -105,7 +139,8 @@
       "skills": [
         "repository-scoped .codex/skills/ (private; resolve when authorized)"
       ],
-      "evidence": "https://governance.fountain.coach/"
+      "evidence": "https://github.com/Fountain-Coach/Reframe-Refactoring",
+      "status": "historical-and-internal-authoring"
     },
     {
       "id": "reframe-runtime",
