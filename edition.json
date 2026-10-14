@@ -1,0 +1,15 @@
+{
+  "schema": "fountain.status.public-edition.v1",
+  "host": "status.fountain.coach",
+  "canonical": "https://status.fountain.coach/",
+  "authority": "Fountain-Coach/status.fountain.coach",
+  "publicationRoot": "site",
+  "editionStatus": "public-https-witnessed-source-snapshot",
+  "captured": "2026-10-14",
+  "fileCount": 25,
+  "htmlRouteCount": 12,
+  "sha256Inventory": "b40be7d767f71da1de462b16292c737ee9c6f224592a614538d5b493f1106b35",
+  "snapshotTag": "status-public-snapshot-20261014",
+  "derivedSite": "midi2-gpu-fabric/estate/sites/status.fountain.coach",
+  "publicEffect": "No Git push performs a public publication."
+}

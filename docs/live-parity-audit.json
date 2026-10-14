@@ -1,0 +1,166 @@
+{
+  "schema": "fountain.status.live-parity.v1",
+  "host": "status.fountain.coach",
+  "url": "https://status.fountain.coach/",
+  "capturedAt": "2026-10-14T09:54:08.799601+00:00",
+  "recordType": "entire-known-public-site-live-byte-witness",
+  "allPathsVerifiedBySeparateHttpsGet": true,
+  "fileCount": 25,
+  "htmlRouteCount": 12,
+  "files": [
+    {
+      "path": ".well-known/agent-bootstrap.json",
+      "size": 19119,
+      "sha256": "91edee47953e33bad8006032416763669079e565d5e922aff7a9ba358d6bcf7b",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "assets/copilot-system-light.svg",
+      "size": 2617,
+      "sha256": "dd5ab995003c7c57fc34f54230ae859f26b2f7d0447019861e1b3abad47656b5",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "assets/copilot-system.svg",
+      "size": 2737,
+      "sha256": "6eb0d34a293c0ce54e49d8fc9dc78c4cd7a567d4103c2255a0dbfebe8488d8b3",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "assets/estate-core.css",
+      "size": 21237,
+      "sha256": "31baf2864046acf1885c49ccff40869d0dfbc9da63a2af674aecf218b8f8dbfe",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "assets/estate-core.js",
+      "size": 7136,
+      "sha256": "1c1a47002fa18c66c7ce328ac07db8457bf71aea2e5b878c8f7a3c80e53046a4",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "assets/fountain-coach-logo-transparent.png",
+      "size": 9842,
+      "sha256": "8c5fad1c3db56138d5959da75991dc8034a0be537ce46da6ffcc0d9655e7f729",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "assets/status-screenplay-plate.svg",
+      "size": 1611,
+      "sha256": "756749335dbe1916a902c614250124929265c471b8fcf442ec548eb9fccf9d88",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "assets/status.css",
+      "size": 17148,
+      "sha256": "66888fa7a9ff87ef54db5fb26fff77d700a647e645f14f3e5798a6b1bbee4af5",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "assets/status.js",
+      "size": 3998,
+      "sha256": "af6818c3f5ac4ef2815703591d7f0581240e433059152dfa89945c67250787f8",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "business-architecture/index.html",
+      "size": 12775,
+      "sha256": "af4ff2362e4c3093150619a109ac8f1ee25c595f068e3139fbab7e199b95faa7",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "business-architecture.json",
+      "size": 16566,
+      "sha256": "d6c3344ab0d4545f0407dfed25af80d940dca2612115e863bd0d8cf6527184d0",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "business-architecture.schema.json",
+      "size": 1840,
+      "sha256": "181243b3e51f05252f1f1f702063d6e1099a4d77e266e6842d96ddca5cfe738b",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "business-model/index.html",
+      "size": 8385,
+      "sha256": "7acfd3debe59600ed4f815a89076d06a78face107dc1a30e6ee9abea73d6acf2",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "ci/index.html",
+      "size": 7819,
+      "sha256": "469058bf1a2b706dcefc3b05795f91568699d9228984d3843500ad46937bdb21",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "company/index.html",
+      "size": 8035,
+      "sha256": "61426a8fd639b020b6b8c076be383cd08d61a321fb106a4c24ffd961e439726a",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "evidence/index.html",
+      "size": 8019,
+      "sha256": "54af72b3eeeae9049d744228adabb63085775454008f400f82af63babbb5f986",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "for-agents/bootstrap.json",
+      "size": 19119,
+      "sha256": "91edee47953e33bad8006032416763669079e565d5e922aff7a9ba358d6bcf7b",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "for-agents/index.html",
+      "size": 8041,
+      "sha256": "e63652affd5299b37b3ed337d889417fe5ea4ddf0af7685808bd967dc3eee0a8",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "foundation/index.html",
+      "size": 7993,
+      "sha256": "4177728052e79c7971248ad475e7265152e691f2ba8778297c0bd7348d43cb76",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "index.html",
+      "size": 9095,
+      "sha256": "5474a576383164da216d1e93355d6258f56584c5d2986a08fce072fac28e8bfa",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "llms.txt",
+      "size": 1126,
+      "sha256": "1ec216db5eeb79e565a396f57842cf89901292ace5cd8df00534054ae15bb226",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "midi2/index.html",
+      "size": 8064,
+      "sha256": "dd28b36076e457f093a090b909e99743973743f264ae78ae8e1ff5cdd3b6b3a7",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "product-fields/index.html",
+      "size": 7806,
+      "sha256": "a407641971d674849bee083029201b0eb17b8ecfc2e30727413b4dc0c62b61e0",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "reframe/index.html",
+      "size": 7878,
+      "sha256": "a0a0acd51ef5b412884f40214026494f0cd562faff9d3baa43e1d43a322a027d",
+      "liveHttpsStatus": 200
+    },
+    {
+      "path": "transparency/index.html",
+      "size": 7878,
+      "sha256": "288f3b2fc0481602ec02f5e6ac5e714fac5006fe31b9491d37d5b0ecf1efe562",
+      "liveHttpsStatus": 200
+    }
+  ],
+  "limitations": [
+    "Only HTTP paths discovered from the existing 25-file site inventory and linked public pages are included.",
+    "A future source revision is not published merely by being committed."
+  ]
+}

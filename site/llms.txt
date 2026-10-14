@@ -1,0 +1,23 @@
+# Fountain Coach Agent Discovery
+
+Canonical machine-readable bootstrap:
+https://status.fountain.coach/for-agents/bootstrap.json
+
+Equivalent discovery route:
+https://status.fountain.coach/.well-known/agent-bootstrap.json
+
+Human projection:
+https://status.fountain.coach/for-agents/
+
+Strategic business architecture:
+https://status.fountain.coach/business-architecture.json
+
+Human projection:
+https://status.fountain.coach/business-architecture/
+
+The business architecture distinguishes capabilities, assets, products, markets, business-model portfolio, Wardley strategy, evidence, risks, and hypotheses. Read state labels before treating a proposal as an existing or commercial fact. The public projection does not replace private runtime authority or MIDI Association normative authority.
+
+Language rule:
+The status estate is English-only. German projections and the language switch are offline; the canonical human routes are the English routes at https://status.fountain.coach/.
+
+Read the JSON router first. If it is unavailable, do not treat the human projection as machine authority; apply bootstrap-unreachable and STOP.

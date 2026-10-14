@@ -1,0 +1,470 @@
+{
+  "schemaVersion": "fountain-coach.agent-bootstrap.v1",
+  "lastReviewed": "2026-08-19",
+  "purpose": "Institutional bootstrap and authority router for agents beginning at status.fountain.coach.",
+  "canonicalUrl": "https://status.fountain.coach/for-agents/bootstrap.json",
+  "public": true,
+  "status": "public-router",
+  "freshness": {
+    "snapshotAsOf": "2026-08-19",
+    "rule": "This document routes to authorities. Its snapshot date does not replace the freshness semantics of a linked authority. Read the linked source before making a current claim."
+  },
+  "startHere": {
+    "company": "https://status.fountain.coach/company/",
+    "productStructure": "https://status.fountain.coach/product-fields/",
+    "reframe": "https://status.fountain.coach/reframe/",
+    "technicalFoundation": "https://status.fountain.coach/foundation/",
+    "midi2": "https://status.fountain.coach/midi2/",
+    "evidence": "https://status.fountain.coach/evidence/",
+    "transparency": "https://status.fountain.coach/transparency/",
+    "businessArchitecture": "https://status.fountain.coach/business-architecture/",
+    "businessArchitectureJson": "https://status.fountain.coach/business-architecture.json",
+    "thisBootstrap": "https://status.fountain.coach/for-agents/"
+  },
+  "discovery": {
+    "canonicalJson": "https://status.fountain.coach/for-agents/bootstrap.json",
+    "wellKnownJson": "https://status.fountain.coach/.well-known/agent-bootstrap.json",
+    "llmsText": "https://status.fountain.coach/llms.txt",
+    "businessArchitectureJson": "https://status.fountain.coach/business-architecture.json",
+    "rule": "These discovery routes are equivalent entry points to this same JSON router. If the canonical JSON cannot be read, the HTML projection must not be treated as the machine bootstrap. Apply bootstrap-unreachable and STOP."
+  },
+  "company": {
+    "id": "fountain-coach",
+    "name": "Fountain Coach",
+    "role": "Software- und Produktentwicklungsunternehmen",
+    "reframeRelationship": "Reframe ist die Flagship-Anwendung, nicht das Unternehmen als Ganzes.",
+    "publicAuthority": {
+      "authorityFor": [
+        "public company description",
+        "public product structure"
+      ],
+      "canonicalUrl": "https://status.fountain.coach/company/",
+      "sourceRepository": "https://github.com/Fountain-Coach/Fountain-Coach.github.io",
+      "public": true,
+      "status": "public-projection",
+      "readNext": [
+        "https://github.com/Fountain-Coach",
+        "https://status.fountain.coach/product-fields/"
+      ]
+    },
+    "developerContinuity": {
+      "authorityFor": [
+        "public developer profile and continuity context"
+      ],
+      "canonicalUrl": "https://github.com/Contexter",
+      "public": true,
+      "status": "external-public-profile",
+      "note": "Profile context is evidence, not a substitute for repository-specific authority."
+    }
+  },
+  "languageSupport": {
+    "languages": [
+      "en"
+    ],
+    "strategy": "English is the sole public language. German projections and the language-switch template are offline."
+  },
+  "strategicBusinessArchitecture": {
+    "authorityFor": [
+      "public capabilities, assets, products, markets, business models, evidence, risks, and strategic hypotheses"
+    ],
+    "canonicalUrl": "https://status.fountain.coach/business-architecture.json",
+    "humanUrl": "https://status.fountain.coach/business-architecture/",
+    "schemaUrl": "https://status.fountain.coach/business-architecture.schema.json",
+    "status": "public-strategic-projection",
+    "formula": "capability -> asset -> product or infrastructure -> market -> evidence",
+    "boundary": "This projection does not establish commercial availability, revenue, customer numbers, private runtime completeness, or hardware interoperability unless a linked authority explicitly does so."
+  },
+  "products": {
+    "authorityFor": [
+      "public product fields and product boundaries"
+    ],
+    "canonicalUrl": "https://status.fountain.coach/product-fields/",
+    "public": true,
+    "status": "public-projection",
+    "readNext": [
+      "https://book.fountain.coach/",
+      "https://github.com/Fountain-Coach"
+    ],
+    "boundary": "A product field is not automatically a released product. Resolve capability, executable, acceptance, and release status separately."
+  },
+  "repositories": [
+    {
+      "id": "reframe-governance",
+      "repository": "Fountain-Coach/Reframe-Refactoring",
+      "role": "public Reframe governance and publication source",
+      "authorityFor": [
+        "Reframe product intent",
+        "refactoring governance",
+        "public governance projection"
+      ],
+      "canonicalUrl": "https://governance.fountain.coach/",
+      "sourceRepository": "https://github.com/Fountain-Coach/Reframe-Refactoring",
+      "public": true,
+      "agents": "https://github.com/Fountain-Coach/Reframe-Refactoring/blob/main/AGENTS.md",
+      "plans": "https://github.com/Fountain-Coach/Reframe-Refactoring/blob/main/PLANS.md",
+      "skills": [
+        "repository-scoped .codex/skills/ (private; resolve when authorized)"
+      ],
+      "evidence": "https://governance.fountain.coach/"
+    },
+    {
+      "id": "reframe-runtime",
+      "repository": "Fountain-Coach/midi2-gpu-fabric",
+      "role": "Reframe runtime and MIDI2 GPU fabric",
+      "authorityFor": [
+        "implemented runtime behavior",
+        "runtime contracts",
+        "generated capability registry",
+        "Store evidence",
+        "scenario execution"
+      ],
+      "canonicalUrl": "https://github.com/Fountain-Coach/midi2-gpu-fabric",
+      "public": false,
+      "status": "private-runtime-authority",
+      "agents": "private repository AGENTS.md",
+      "plans": "private repository PLANS.md",
+      "skills": [
+        "repository-scoped .codex/skills/ (private)"
+      ],
+      "stopWithoutAccess": true,
+      "stopReason": "Public governance is not runtime truth. required authority unavailable -> STOP."
+    },
+    {
+      "id": "book-of-reframe",
+      "repository": "Fountain-Coach/book-of-reframe",
+      "role": "public Book of Reframe projection and reviewed public reference",
+      "authorityFor": [
+        "public Reframe reference",
+        "released public projection",
+        "Book publication metadata"
+      ],
+      "canonicalUrl": "https://book.fountain.coach/",
+      "sourceRepository": "https://github.com/Fountain-Coach/book-of-reframe",
+      "public": true,
+      "agents": "https://github.com/Fountain-Coach/book-of-reframe/blob/main/AGENTS.md",
+      "plans": "https://github.com/Fountain-Coach/book-of-reframe/blob/main/PLANS.md",
+      "skills": [],
+      "evidence": "https://book.fountain.coach/"
+    },
+    {
+      "id": "midi2-foundation",
+      "repository": "Fountain-Coach/midi2",
+      "role": "MIDI 2.0 implementation foundation",
+      "authorityFor": [
+        "public MIDI 2.0 implementation documentation",
+        "public reusable MIDI components"
+      ],
+      "canonicalUrl": "https://github.com/Fountain-Coach/midi2",
+      "public": true,
+      "status": "public-repository-authority",
+      "skills": [],
+      "evidence": "https://github.com/Fountain-Coach/midi2"
+    },
+    {
+      "id": "scenario-kit",
+      "repository": "Fountain-Coach/FountainScenarioKit",
+      "role": "scenario contract and scenario transport kit",
+      "authorityFor": [
+        "public scenario-kit contracts and transport surface"
+      ],
+      "canonicalUrl": "https://github.com/Fountain-Coach/FountainScenarioKit",
+      "public": true,
+      "skills": [],
+      "evidence": "https://github.com/Fountain-Coach/FountainScenarioKit"
+    },
+    {
+      "id": "midi2-workbench",
+      "repository": "Fountain-Coach/MIDI2.0Workbench",
+      "role": "MIDI 2.0 workbench and validation context",
+      "authorityFor": [
+        "public workbench implementation and validation context"
+      ],
+      "canonicalUrl": "https://github.com/Fountain-Coach/MIDI2.0Workbench",
+      "public": true,
+      "skills": [],
+      "evidence": "https://github.com/Fountain-Coach/MIDI2.0Workbench"
+    },
+    {
+      "id": "reusable-kits",
+      "repository": "Fountain-Coach",
+      "role": "organisation-level index for reusable product and foundation kits",
+      "authorityFor": [
+        "public repository ownership and visibility"
+      ],
+      "canonicalUrl": "https://github.com/Fountain-Coach",
+      "public": true,
+      "skills": [],
+      "examples": [
+        "FountainComposerKit",
+        "FountainProjectKit",
+        "FountainMaintenanceKit",
+        "ScoreKit",
+        "Teatro",
+        "LocalAgent"
+      ],
+      "note": "Examples are repository pointers, not a claim that every repository is a released product. Inspect each repository."
+    }
+  ],
+  "authorities": {
+    "companyIdentity": {
+      "authorityFor": "public company identity and product distinction",
+      "canonicalUrl": "https://status.fountain.coach/company/",
+      "public": true,
+      "sourceRepository": "https://github.com/Fountain-Coach/Fountain-Coach.github.io",
+      "status": "public-projection",
+      "readNext": [
+        "https://github.com/Fountain-Coach"
+      ]
+    },
+    "productIntent": {
+      "authorityFor": "Reframe product intent, architecture decisions, normative target states, and refactoring governance",
+      "canonicalUrl": "https://governance.fountain.coach/",
+      "sourceRepository": "https://github.com/Fountain-Coach/Reframe-Refactoring",
+      "public": true,
+      "status": "governance-projection",
+      "notRuntimeTruth": true
+    },
+    "runtimeTruth": {
+      "authorityFor": "actually implemented runtime behavior",
+      "canonicalUrl": "https://github.com/Fountain-Coach/midi2-gpu-fabric",
+      "public": false,
+      "status": "private-authority",
+      "required": true,
+      "stopWithoutAccess": true
+    },
+    "agentGovernance": {
+      "authorityFor": "organisation-wide and repository-scoped agent governance",
+      "canonicalUrl": "https://github.com/Fountain-Coach/.github/blob/main/docs/FCIS-AX-Standard.md",
+      "sourceRepository": "https://github.com/Fountain-Coach/.github",
+      "public": true,
+      "status": "public-standard",
+      "layers": {
+        "AGENTS.md": "rules, invariants, boundaries, and routing",
+        "PLANS.md": "current or planned multi-step work and bounded implementation phases",
+        "Skills": "executable procedures and acceptance workflows",
+        "Tools/MCP/Environment": "available external capabilities and execution environment; not governance truth"
+      },
+      "readNext": [
+        "https://github.com/Fountain-Coach/.github",
+        "repository-scoped AGENTS.md",
+        "repository-scoped PLANS.md"
+      ]
+    },
+    "currentWork": {
+      "authorityFor": "current work queue and planned implementation",
+      "status": "mixed-public-private-authority",
+      "public": "mixed",
+      "routes": [
+        {
+          "repository": "Fountain-Coach/midi2-gpu-fabric",
+          "canonicalUrl": "https://github.com/Fountain-Coach/midi2-gpu-fabric/blob/main/PLANS.md",
+          "public": false,
+          "stopWithoutAccess": true
+        },
+        {
+          "repository": "Fountain-Coach/Reframe-Refactoring",
+          "canonicalUrl": "https://github.com/Fountain-Coach/Reframe-Refactoring/blob/main/PLANS.md",
+          "public": true
+        },
+        {
+          "repository": "Fountain-Coach/book-of-reframe",
+          "canonicalUrl": "https://github.com/Fountain-Coach/book-of-reframe/blob/main/PLANS.md",
+          "public": true
+        }
+      ],
+      "rule": "Do not copy a plan snapshot into this router. Read the owning PLANS.md and record its source revision or snapshot date."
+    },
+    "capabilityIdentity": {
+      "authorityFor": "capability identity and registry",
+      "canonicalUrl": "https://github.com/Fountain-Coach/midi2-gpu-fabric",
+      "public": false,
+      "status": "private-runtime-authority",
+      "required": true,
+      "stopWithoutAccess": true,
+      "readNext": [
+        "schema/idl.yaml",
+        "schema/facts.json",
+        "generated capability registry"
+      ]
+    },
+    "liveAcceptance": {
+      "authorityFor": "independent AX, Window-ID/VRT, Store, telemetry, and scenario acceptance evidence",
+      "canonicalUrl": "https://github.com/Fountain-Coach/midi2-gpu-fabric",
+      "public": false,
+      "status": "private-evidence-authority",
+      "requiredFor": [
+        "live-accepted claim",
+        "runtime acceptance claim"
+      ],
+      "stopWithoutAccess": true
+    },
+    "releasedSurface": {
+      "authorityFor": "named public release and publication boundary",
+      "canonicalUrl": "https://book.fountain.coach/",
+      "sourceRepository": "https://github.com/Fountain-Coach/book-of-reframe",
+      "public": true,
+      "status": "public-projection",
+      "rule": "live-accepted does not imply released; require a named release authority."
+    },
+    "publicProjection": {
+      "authorityFor": "sanitized public explanation and routing only",
+      "canonicalUrl": "https://status.fountain.coach/for-agents/bootstrap.json",
+      "public": true,
+      "status": "router",
+      "rule": "This bootstrap never overrides a repository, Store, contract, evidence, or release authority."
+    }
+  },
+  "statusSemantics": {
+    "exists": "An identity or source is declared or discoverable. This does not prove availability or implementation.",
+    "available": "The declared capability or environment can be reached in the relevant context. This does not prove execution.",
+    "executable": "The declared contract can be run through its required procedure and environment. This does not prove live acceptance.",
+    "live-accepted": "The declared acceptance procedure passed with its independent AX/Window-ID/VRT, Store, telemetry, and provenance evidence.",
+    "released": "A named release authority has published the surface under its release boundary.",
+    "authorityRule": "Never promote one status to another by inference. Resolve each status from its owning authority."
+  },
+  "procedures": [
+    {
+      "id": "repository-rules",
+      "name": "AGENTS.md",
+      "authorityFor": "rules, invariants, boundaries, routing",
+      "public": "depends-on-repository",
+      "requiredBefore": [
+        "implementation",
+        "drive",
+        "acceptance"
+      ]
+    },
+    {
+      "id": "work-plan",
+      "name": "PLANS.md",
+      "authorityFor": "bounded current or planned work",
+      "public": "depends-on-repository",
+      "requiredBefore": [
+        "multi-step change",
+        "high-risk change"
+      ]
+    },
+    {
+      "id": "skills",
+      "name": "Skills",
+      "authorityFor": "executable procedures",
+      "public": false,
+      "canonicalUrl": "https://github.com/Fountain-Coach/midi2-gpu-fabric/tree/main/.codex/skills",
+      "stopWithoutAccess": true
+    },
+    {
+      "id": "environment",
+      "name": "Tools / MCP / Environment",
+      "authorityFor": "available execution capabilities only",
+      "public": false,
+      "rule": "Capability presence is not permission, runtime truth, or evidence."
+    }
+  ],
+  "evidence": {
+    "authorityFor": "claim and publication evidence routing",
+    "canonicalUrl": "https://status.fountain.coach/evidence/",
+    "public": true,
+    "kinds": {
+      "sourceRepository": "supports public source and provenance claims",
+      "Store": "supports persisted runtime behavior only when read from the owning Store",
+      "AX": "supports accessible UI semantics and observed surface state",
+      "windowIdVRT": "supports visual identity of the bound window; a screenshot alone is not behavioral proof",
+      "telemetry": "supports emitted operational events and errors; logs alone do not prove success",
+      "provenance": "binds claim to source revision, executable, process, Store, and evidence bundle"
+    },
+    "rule": "Every claim names its authority and evidence. Different evidence kinds are not interchangeable.",
+    "publication": "Before publication or promotion, run the repository's prepublication, link, accessibility, visual, and provenance gates."
+  },
+  "publicPrivateBoundary": {
+    "public": [
+      "sanitized company description",
+      "public repository links",
+      "public governance and Book projections",
+      "public evidence links"
+    ],
+    "private": [
+      "runtime source when private",
+      "private Store data",
+      "manuscripts and prompts",
+      "credentials",
+      "internal proprietary code",
+      "unpublished evidence"
+    ],
+    "rule": "A public projection may name a private authority and its boundary, but may not reconstruct or publish its contents."
+  },
+  "stopConditions": [
+    {
+      "id": "bootstrap-unreachable",
+      "when": "The machine-readable bootstrap cannot be read from the canonical or declared discovery routes.",
+      "action": "STOP",
+      "authority": "publicProjection",
+      "rule": "Do not promote the human HTML projection into machine authority."
+    },
+    {
+      "id": "runtime-authority-unavailable",
+      "when": "The required runtime authority cannot be reached.",
+      "action": "STOP",
+      "authority": "runtimeTruth"
+    },
+    {
+      "id": "agents-not-read",
+      "when": "The applicable AGENTS.md is missing, unread, or unresolved.",
+      "action": "STOP",
+      "authority": "agentGovernance"
+    },
+    {
+      "id": "authority-conflict",
+      "when": "Two authorities conflict and the conflict cannot be resolved from the contract or live state.",
+      "action": "STOP",
+      "authority": "publicProjection"
+    },
+    {
+      "id": "procedure-missing",
+      "when": "The required Skill or procedure is unavailable.",
+      "action": "STOP",
+      "authority": "agentGovernance"
+    },
+    {
+      "id": "environment-missing",
+      "when": "The required execution environment or native capability is unavailable.",
+      "action": "STOP",
+      "authority": "agentGovernance"
+    },
+    {
+      "id": "credentials-missing",
+      "when": "Required credentials are absent, locked, or not authorized.",
+      "action": "STOP",
+      "authority": "runtimeTruth"
+    },
+    {
+      "id": "live-evidence-missing",
+      "when": "A live claim lacks declared AX, Window-ID/VRT, Store, telemetry, and provenance evidence.",
+      "action": "STOP",
+      "authority": "liveAcceptance"
+    },
+    {
+      "id": "named-release-missing",
+      "when": "A release claim has no named release authority or release evidence.",
+      "action": "STOP",
+      "authority": "releasedSurface"
+    },
+    {
+      "id": "inferred-defect",
+      "when": "A runtime defect cause is only inferred and owning code has not been inspected.",
+      "action": "STOP",
+      "authority": "runtimeTruth"
+    },
+    {
+      "id": "private-reconstruction",
+      "when": "A private area would be reconstructed from a public projection.",
+      "action": "STOP",
+      "authority": "publicPrivateBoundary"
+    },
+    {
+      "id": "evidence-unavailable",
+      "when": "Necessary evidence is unavailable or not bound to the claimed source revision.",
+      "action": "STOP",
+      "authority": "evidence"
+    }
+  ]
+}

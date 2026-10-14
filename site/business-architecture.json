@@ -1,0 +1,591 @@
+{
+  "$schema": "https://status.fountain.coach/business-architecture.schema.json",
+  "schemaVersion": "fountain-coach.business-architecture.v1",
+  "canonicalUrl": "https://status.fountain.coach/business-architecture.json",
+  "lastReviewed": "2026-09-08",
+  "publisher": {
+    "id": "fountain-coach",
+    "name": "Fountain Coach",
+    "publicAuthority": "https://status.fountain.coach/for-agents/bootstrap.json"
+  },
+  "governingFormula": "capability -> asset -> product or infrastructure -> market -> evidence",
+  "purpose": {
+    "en": "A machine-readable strategic business architecture for distinguishing what Fountain Coach can repeatedly do, what it maintains, what it offers, where value may form, and what evidence supports each claim."
+  },
+  "stateVocabulary": {
+    "existing": {
+      "en": "documented as existing"
+    },
+    "operational": {
+      "en": "operationally used"
+    },
+    "in-development": {
+      "en": "under active development"
+    },
+    "experimental": {
+      "en": "experimental or being validated"
+    },
+    "proposed": {
+      "en": "strategic proposal or hypothesis"
+    },
+    "open-infrastructure": {
+      "en": "open technical infrastructure"
+    },
+    "commercially-available": {
+      "en": "commercial availability is explicitly established"
+    }
+  },
+  "capabilities": [
+    {
+      "id": "governed-agentic-development",
+      "state": "existing",
+      "label": {
+        "en": "Governed agentic software development"
+      },
+      "description": {
+        "en": "Scenario-led development with repository governance, evidence, and publication boundaries."
+      },
+      "evidence": [
+        "https://governance.fountain.coach/",
+        "https://github.com/Fountain-Coach"
+      ]
+    },
+    {
+      "id": "native-application-development",
+      "state": "in-development",
+      "label": {
+        "en": "Native Swift and Apple-platform development"
+      },
+      "description": {
+        "en": "Development capability used by the Reframe runtime and related tools; public status does not replace private runtime authority."
+      },
+      "evidence": [
+        "https://github.com/Fountain-Coach/midi2-gpu-fabric"
+      ]
+    },
+    {
+      "id": "fcis-library-development",
+      "state": "existing",
+      "label": {
+        "en": "Reusable FCIS-compliant library development"
+      },
+      "description": {
+        "en": "Shared packages, skills, and contracts can support more than one application."
+      },
+      "evidence": [
+        "https://github.com/Fountain-Coach"
+      ]
+    },
+    {
+      "id": "machine-readable-specification-modelling",
+      "state": "existing",
+      "label": {
+        "en": "Machine-readable specification modelling"
+      },
+      "description": {
+        "en": "Normative technical material is represented with provenance, ledgers, generated views, and tests."
+      },
+      "evidence": [
+        "https://midi2.fountain.coach/",
+        "https://github.com/Fountain-Coach/midi2"
+      ]
+    },
+    {
+      "id": "midi2-orchestration",
+      "state": "in-development",
+      "label": {
+        "en": "MIDI 2.0 communication and orchestration"
+      },
+      "description": {
+        "en": "Software-side MIDI 2.0 modelling and orchestration, with hardware interoperability kept as a separate claim."
+      },
+      "evidence": [
+        "https://midi2.fountain.coach/",
+        "https://instruments.fountain.coach/"
+      ]
+    },
+    {
+      "id": "publication-and-deployment",
+      "state": "operational",
+      "label": {
+        "en": "Public documentation and deployment"
+      },
+      "description": {
+        "en": "Curated public projections are published across the Fountain Coach estate."
+      },
+      "evidence": [
+        "https://fountain.coach/",
+        "https://status.fountain.coach/"
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "id": "reframe-runtime-repository",
+      "state": "existing",
+      "label": {
+        "en": "Reframe runtime repository"
+      },
+      "type": "source-repository",
+      "openSource": false,
+      "authority": "https://github.com/Fountain-Coach/midi2-gpu-fabric"
+    },
+    {
+      "id": "fcis-kit-and-skills",
+      "state": "existing",
+      "label": {
+        "en": "FCIS-KIT libraries and skills"
+      },
+      "type": "reusable-development-infrastructure",
+      "openSource": "mixed",
+      "authority": "https://github.com/Fountain-Coach"
+    },
+    {
+      "id": "midi2-machine-readable-representation",
+      "state": "open-infrastructure",
+      "label": {
+        "en": "Machine-readable MIDI 2.0 representation"
+      },
+      "type": "technical-asset",
+      "openSource": true,
+      "authority": "https://github.com/Fountain-Coach/midi2",
+      "boundary": {
+        "en": "MIDI Association normative authority remains external; this repository is an implementation and documentation asset."
+      }
+    },
+    {
+      "id": "governance-and-publication-estate",
+      "state": "existing",
+      "label": {
+        "en": "Governance and publication estate"
+      },
+      "type": "institutional-asset",
+      "openSource": "mixed",
+      "authority": "https://governance.fountain.coach/"
+    },
+    {
+      "id": "test-and-evidence-infrastructure",
+      "state": "existing",
+      "label": {
+        "en": "Test and evidence infrastructure"
+      },
+      "type": "verification-asset",
+      "openSource": "mixed",
+      "authority": "https://status.fountain.coach/evidence/"
+    },
+    {
+      "id": "domains-and-publication-roots",
+      "state": "operational",
+      "label": {
+        "en": "Domains and publication roots"
+      },
+      "type": "distribution-asset",
+      "openSource": false,
+      "authority": "https://fountain.coach/"
+    },
+    {
+      "id": "institutional-knowledge",
+      "state": "existing",
+      "label": {
+        "en": "Machine-readable institutional knowledge"
+      },
+      "type": "knowledge-asset",
+      "openSource": "mixed",
+      "authority": "https://status.fountain.coach/for-agents/bootstrap.json"
+    }
+  ],
+  "products": [
+    {
+      "id": "reframe",
+      "state": "in-development",
+      "label": {
+        "en": "Reframe"
+      },
+      "role": {
+        "en": "Flagship product and reference implementation"
+      },
+      "authority": "https://book.fountain.coach/",
+      "repository": "https://github.com/Fountain-Coach/midi2-gpu-fabric",
+      "commercialStatus": "not established by this public projection"
+    },
+    {
+      "id": "midi2-documentation-and-components",
+      "state": "open-infrastructure",
+      "label": {
+        "en": "MIDI 2.0 documentation and reusable components"
+      },
+      "authority": "https://midi2.fountain.coach/",
+      "repository": "https://github.com/Fountain-Coach/midi2",
+      "commercialStatus": "not asserted"
+    },
+    {
+      "id": "fcis-kit",
+      "state": "in-development",
+      "label": {
+        "en": "FCIS-KIT developer platform"
+      },
+      "authority": "https://governance.fountain.coach/chapters/93-instrument-creation-is-a-governed-promotion-path/",
+      "commercialStatus": "proposed platform business"
+    },
+    {
+      "id": "midi2-instrument-catalogue",
+      "state": "experimental",
+      "label": {
+        "en": "MIDI 2.0 instrument catalogue"
+      },
+      "authority": "https://instruments.fountain.coach/",
+      "commercialStatus": "catalogue and architectural preview; not an operational marketplace"
+    }
+  ],
+  "markets": [
+    {
+      "id": "reframe-product-market",
+      "state": "in-development",
+      "label": {
+        "en": "Reframe product market"
+      },
+      "actors": [
+        "writers",
+        "researchers",
+        "creative professionals"
+      ],
+      "note": {
+        "en": "Customer, pricing, and retention claims require product evidence."
+      }
+    },
+    {
+      "id": "developer-platform-market",
+      "state": "proposed",
+      "label": {
+        "en": "Developer platform market"
+      },
+      "actors": [
+        "developers",
+        "AI agents",
+        "instrument builders"
+      ],
+      "note": {
+        "en": "A possible FCIS-KIT economic engine."
+      }
+    },
+    {
+      "id": "open-midi-infrastructure",
+      "state": "open-infrastructure",
+      "label": {
+        "en": "Open MIDI 2.0 infrastructure"
+      },
+      "actors": [
+        "implementers",
+        "developers",
+        "hardware makers"
+      ],
+      "note": {
+        "en": "Strategic value is assessed through reuse, authority, interoperability, and ecosystem effects rather than direct revenue alone."
+      }
+    },
+    {
+      "id": "instrument-plugin-ecosystem",
+      "state": "proposed",
+      "label": {
+        "en": "Instrument and plugin ecosystem"
+      },
+      "actors": [
+        "end users",
+        "developers",
+        "Fountain Coach",
+        "hardware manufacturers",
+        "AI systems"
+      ],
+      "note": {
+        "en": "A future multi-sided platform hypothesis."
+      }
+    }
+  ],
+  "businessModelPortfolio": [
+    {
+      "id": "reframe-product-business",
+      "state": "in-development",
+      "label": {
+        "en": "Reframe product business"
+      },
+      "instrument": "business-model-canvas",
+      "inputs": [
+        "customer segments",
+        "value proposition",
+        "distribution",
+        "pricing",
+        "support",
+        "costs"
+      ],
+      "claimBoundary": {
+        "en": "A model under development, not proof of commercial availability."
+      }
+    },
+    {
+      "id": "fcis-kit-platform-business",
+      "state": "proposed",
+      "label": {
+        "en": "FCIS-KIT platform business"
+      },
+      "instrument": "platform-business-model",
+      "inputs": [
+        "developers",
+        "licensing",
+        "hosted infrastructure",
+        "certification",
+        "support"
+      ]
+    },
+    {
+      "id": "midi2-open-infrastructure-business",
+      "state": "open-infrastructure",
+      "label": {
+        "en": "MIDI 2.0 open infrastructure"
+      },
+      "instrument": "ecosystem-value-model",
+      "inputs": [
+        "adoption",
+        "reuse",
+        "interoperability",
+        "technical authority",
+        "downstream activity"
+      ]
+    },
+    {
+      "id": "instrument-ecosystem-business",
+      "state": "proposed",
+      "label": {
+        "en": "Instrument and plugin ecosystem"
+      },
+      "instrument": "multi-sided-platform-model",
+      "inputs": [
+        "end users",
+        "developers",
+        "distribution",
+        "composition",
+        "governance"
+      ]
+    }
+  ],
+  "wardleyMap": {
+    "status": "strategic-projection",
+    "evolution": [
+      "genesis",
+      "custom-built",
+      "product",
+      "commodity-utility"
+    ],
+    "components": [
+      {
+        "id": "user-need",
+        "label": {
+          "en": "User need"
+        },
+        "stage": "genesis"
+      },
+      {
+        "id": "reframe-component",
+        "label": {
+          "en": "Reframe"
+        },
+        "stage": "custom-built",
+        "related": [
+          "fcis-kit"
+        ]
+      },
+      {
+        "id": "fcis-kit-component",
+        "label": {
+          "en": "FCIS-KIT"
+        },
+        "stage": "custom-built",
+        "related": [
+          "midi2-orchestration"
+        ]
+      },
+      {
+        "id": "midi2-model-component",
+        "label": {
+          "en": "Machine-readable MIDI 2.0 model"
+        },
+        "stage": "product",
+        "related": [
+          "network-transport"
+        ]
+      },
+      {
+        "id": "network-transport",
+        "label": {
+          "en": "Network transport and timing"
+        },
+        "stage": "commodity-utility"
+      },
+      {
+        "id": "platform-runtimes",
+        "label": {
+          "en": "Swift, macOS, Linux"
+        },
+        "stage": "product"
+      },
+      {
+        "id": "ai-model-providers",
+        "label": {
+          "en": "AI model providers"
+        },
+        "stage": "product"
+      },
+      {
+        "id": "commodity-compute",
+        "label": {
+          "en": "Commodity compute"
+        },
+        "stage": "commodity-utility"
+      }
+    ],
+    "boundary": {
+      "en": "This is a strategic map, not an assertion that Fountain Coach owns every dependency."
+    }
+  },
+  "evidenceLedger": [
+    {
+      "id": "evidence-public-estate",
+      "claim": {
+        "en": "Fountain Coach maintains a connected public publication estate."
+      },
+      "lifecycle": "evidenced",
+      "sources": [
+        "https://fountain.coach/",
+        "https://status.fountain.coach/",
+        "https://governance.fountain.coach/"
+      ]
+    },
+    {
+      "id": "evidence-reframe-reference",
+      "claim": {
+        "en": "Reframe is the current flagship product and reference implementation."
+      },
+      "lifecycle": "evidenced",
+      "sources": [
+        "https://book.fountain.coach/",
+        "https://governance.fountain.coach/"
+      ]
+    },
+    {
+      "id": "evidence-midi2-representation",
+      "claim": {
+        "en": "Fountain Coach publishes a machine-readable MIDI 2.0 implementation and documentation projection."
+      },
+      "lifecycle": "evidenced",
+      "sources": [
+        "https://midi2.fountain.coach/",
+        "https://github.com/Fountain-Coach/midi2"
+      ]
+    },
+    {
+      "id": "evidence-instrument-catalogue",
+      "claim": {
+        "en": "A governed MIDI 2.0 instrument catalogue projection exists."
+      },
+      "lifecycle": "demonstrated",
+      "sources": [
+        "https://instruments.fountain.coach/",
+        "https://governance.fountain.coach/chapters/93-instrument-creation-is-a-governed-promotion-path/"
+      ]
+    },
+    {
+      "id": "evidence-commercial-claims",
+      "claim": {
+        "en": "Commercial availability, revenue, user numbers, and hardware interoperability are not established by this status projection."
+      },
+      "lifecycle": "evidenced",
+      "sources": [
+        "https://status.fountain.coach/transparency/",
+        "https://status.fountain.coach/evidence/"
+      ]
+    }
+  ],
+  "strategicHypotheses": [
+    {
+      "id": "reframe-sustainable-product",
+      "state": "proposed",
+      "label": {
+        "en": "Reframe can become a commercially sustainable flagship product."
+      },
+      "nextValidation": {
+        "en": "Define and evidence a product release, user segment, distribution route, and economic model."
+      }
+    },
+    {
+      "id": "fcis-kit-reusable-platform",
+      "state": "proposed",
+      "label": {
+        "en": "FCIS-KIT can become a reusable platform beyond Reframe."
+      },
+      "nextValidation": {
+        "en": "Demonstrate a second independently bounded consumer with its own acceptance evidence."
+      }
+    },
+    {
+      "id": "open-midi-ecosystem-effect",
+      "state": "proposed",
+      "label": {
+        "en": "Open MIDI 2.0 infrastructure can create adoption and ecosystem effects."
+      },
+      "nextValidation": {
+        "en": "Measure external reuse, interoperability, and downstream participation without overstating causality."
+      }
+    },
+    {
+      "id": "agentic-production-loop",
+      "state": "proposed",
+      "label": {
+        "en": "Governed AI-assisted development can reduce time and cost for subsequent applications."
+      },
+      "nextValidation": {
+        "en": "Compare bounded projects using explicit effort, acceptance, and reuse evidence."
+      }
+    }
+  ],
+  "risks": [
+    {
+      "id": "state-conflation",
+      "risk": {
+        "en": "Existing, operational, experimental, and proposed work may be conflated."
+      },
+      "control": {
+        "en": "Every public object carries a controlled state."
+      }
+    },
+    {
+      "id": "marketing-overclaim",
+      "risk": {
+        "en": "Strategic hypotheses may be read as established commercial facts."
+      },
+      "control": {
+        "en": "Claims link to evidence and retain lifecycle state."
+      }
+    },
+    {
+      "id": "authority-confusion",
+      "risk": {
+        "en": "Public projections may be mistaken for private runtime authority or MIDI normative authority."
+      },
+      "control": {
+        "en": "Each layer names its authority and boundary."
+      }
+    }
+  ],
+  "decisionModel": [
+    "need",
+    "capability",
+    "asset",
+    "product-or-infrastructure",
+    "business-model",
+    "strategic-position",
+    "evidence",
+    "reuse"
+  ],
+  "claimBoundary": {
+    "en": "This object is a public strategic projection. It does not establish commercial availability, revenue, customer numbers, private runtime completeness, or hardware interoperability unless a linked authority explicitly does so."
+  }
+}

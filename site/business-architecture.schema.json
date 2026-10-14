@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://status.fountain.coach/business-architecture.schema.json",
+  "title": "Fountain Coach Strategic Business Architecture",
+  "type": "object",
+  "required": ["schemaVersion", "canonicalUrl", "lastReviewed", "capabilities", "assets", "products", "markets", "businessModelPortfolio", "evidenceLedger"],
+  "properties": {
+    "schemaVersion": {"type": "string"},
+    "canonicalUrl": {"type": "string", "format": "uri"},
+    "lastReviewed": {"type": "string", "format": "date"},
+    "capabilities": {"type": "array", "items": {"$ref": "#/$defs/strategicObject"}},
+    "assets": {"type": "array", "items": {"$ref": "#/$defs/strategicObject"}},
+    "products": {"type": "array", "items": {"$ref": "#/$defs/strategicObject"}},
+    "markets": {"type": "array", "items": {"$ref": "#/$defs/strategicObject"}},
+    "businessModelPortfolio": {"type": "array", "items": {"$ref": "#/$defs/strategicObject"}},
+    "evidenceLedger": {"type": "array", "items": {"$ref": "#/$defs/evidence"}}
+  },
+  "$defs": {
+    "englishText": {"type": "object", "required": ["en"], "properties": {"en": {"type": "string"}}, "additionalProperties": false},
+    "strategicObject": {"type": "object", "required": ["id", "state", "label"], "properties": {"id": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "state": {"type": "string"}, "label": {"$ref": "#/$defs/englishText"}}, "additionalProperties": true},
+    "evidence": {"type": "object", "required": ["id", "claim", "lifecycle", "sources"], "properties": {"id": {"type": "string"}, "claim": {"$ref": "#/$defs/englishText"}, "lifecycle": {"enum": ["proposed", "implemented", "demonstrated", "evidenced", "externally-verified"]}, "sources": {"type": "array", "items": {"type": "string", "format": "uri"}}}, "additionalProperties": true}
+  }
+}
