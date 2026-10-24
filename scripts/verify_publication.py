@@ -34,9 +34,9 @@ def inventory():
         extra=sorted(set(local)-set(declared))
         changed=sorted(k for k in set(local)&set(declared) if local[k]!=declared[k])
         raise ValueError(f'Inventory mismatch: missing={missing}, extra={extra}, changed={changed}')
-    assert len(declared)==25,(len(declared),'Expected full current Status site')
+    assert len(declared)==26,(len(declared),'Expected full current Status site')
     html=[p for p in SITE.rglob('index.html') if p.is_file()]
-    assert len(html)==12,(len(html),'Expected all public Status HTML routes')
+    assert len(html)==13,(len(html),'Expected all public Status HTML routes')
     assert (SITE/'.well-known/agent-bootstrap.json').is_file()
     assert (SITE/'for-agents/bootstrap.json').is_file()
     assert (SITE/'business-architecture.json').is_file()
@@ -67,7 +67,7 @@ def main():
     parser.add_argument('--against-live',action='store_true')
     args=parser.parse_args()
     declared=inventory()
-    print('STATUS_GIT_SOURCE_VERIFIED',len(declared),'files, 12 HTML routes')
+    print('STATUS_GIT_SOURCE_VERIFIED',len(declared),'files, 13 HTML routes')
     if args.against_live:
         with ThreadPoolExecutor(max_workers=6) as pool:
             response=list(pool.map(fetch_item,sorted(declared.items())))

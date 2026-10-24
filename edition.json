@@ -6,13 +6,14 @@
   "publicationRoot": "site",
   "editionStatus": "source-candidate-not-publicly-deployed",
   "captured": "2026-10-14",
-  "fileCount": 25,
-  "htmlRouteCount": 12,
-  "sha256Inventory": "1af4a6ba707bf843846d861a1954ee0b9f16829eefb6332a7a8de409b574f02b",
+  "fileCount": 26,
+  "htmlRouteCount": 13,
+  "sha256Inventory": "8c62b2594723de426305f7a737757ebcb9f1a06359089a0d7565fc7873931081",
   "snapshotTag": "status-public-snapshot-20261014",
   "derivedSite": "midi2-gpu-fabric/estate/sites/status.fountain.coach",
   "publicEffect": "No Git push performs a public publication.",
-  "sourceChange": "Permanent Company Status legal footer plus explicit owning Git links in agent discovery and llms.txt",
+  "sourceChange": "Source-owned discreet references and correspondence policy, Transparency backlink, no case material; existing unpublished Status legal/footer normalizer preserved",
   "publicSnapshotCommit": "941cd20b2b7cef4223988e470d6995636eac1a6e",
-  "publicSnapshotTag": "status-public-snapshot-20261014"
+  "publicSnapshotTag": "status-public-snapshot-20261014",
+  "sourceDecision": "docs/reference-publication-boundary-2026-10-24.md"
 }

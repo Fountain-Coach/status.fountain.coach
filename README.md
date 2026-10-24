@@ -71,3 +71,7 @@ Press may derive reader views without altering any owner.
 ## Current unpublished editorial revision
 
 After the exact-public snapshot tag, the normalizer was admitted as the **owner repository source change**: all 12 pages now show Company Status & Transparency in their footer legal group, not in the header rail. The complete source checksum manifest has been updated. The historical HTTPS witness remains pinned to the original snapshot tag. The current source revision deliberately differs from the live domain until a separately authorized EstatePublisher release and independent HTTPS proof.
+
+## References and correspondence (24 October 2026 — source candidate)
+
+A supporting, off-reel static route is authored at [site/references/](site/references/index.html), linked quietly from Transparency. It documents public/discreet/private publication states, recipient return paths, privacy limits and the prohibition on placing private correspondence in public source or site files. No personal administrative records are included. See [the bounded decision](docs/reference-publication-boundary-2026-10-24.md). This Git change is not public deployment.
