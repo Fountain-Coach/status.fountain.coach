@@ -1,5 +1,7 @@
 # status.fountain.coach — authoritative public edition
 
+> **FCIS architecture:** The [FCIS standalone Go stack specification](https://github.com/Fountain-Coach/.github/blob/main/FCIS-STACK.md) is the organization-owned reference for the Go service and its finite cutover DoD. This repository separately owns the public Status edition; documenting the target does not change observed service status or publish a new edition.
+
 **Public URL:** https://status.fountain.coach/
 
 This Git repository is the **sole authoritative source edition** for the
